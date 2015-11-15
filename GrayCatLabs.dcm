@@ -37,6 +37,11 @@ D quad rail-to-rail operational amplifier
 K quap operational op amp rail-to-rail
 $ENDCMP
 #
+$CMP OPAMP_QUAD
+D quad rail-to-rail operational amplifier
+K quap operational op amp rail-to-rail
+$ENDCMP
+#
 $CMP VREF
 K POWER, PWR
 $ENDCMP
