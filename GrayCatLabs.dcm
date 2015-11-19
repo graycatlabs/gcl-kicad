@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5V_USB
+K POWER, PWR
+$ENDCMP
+#
 $CMP BSS84
 D -50V Vds, -130mA Id, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
