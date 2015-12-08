@@ -10,6 +10,14 @@ K P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS84.pdf
 $ENDCMP
 #
+$CMP BUxxSD5
+D 800 mA ultra low dropout regulator, fixed output version, DFN8-3x3
+$ENDCMP
+#
+$CMP CP2110-GM
+D HID USB-to-UART, QFN-24
+$ENDCMP
+#
 $CMP DMS3015SSS
 D 30V Vds, 11A Id, N-Channel MOSFET, SO-8
 K N-Channel MOSFET Logic Level
@@ -18,6 +26,10 @@ $ENDCMP
 #
 $CMP LM2941SX
 D Adjustable LDO regulator - TO-263 package
+$ENDCMP
+#
+$CMP LM3671LC
+D LM3671 buck regulator, USON package
 $ENDCMP
 #
 $CMP LT1491A
